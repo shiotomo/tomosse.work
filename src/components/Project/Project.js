@@ -30,7 +30,7 @@ class Project extends Component {
               <a href="https://github.com/shiotomo/codecandy" target="_blank">GitHub</a>
             </Button>
         <Button color="primary">
-          <a href="https://codecandy.tomosse.work/" target="_blank">Site</a>
+          <a href="https://codecandy.tomosse.work/" target="_blank">Link</a>
         </Button>
           </CardActions>
         </Card>
@@ -133,7 +133,7 @@ class Project extends Component {
           <a href="https://github.com/shiotomo/kyo-industry" target="_blank">GitHub</a>
         </Button>
         <Button color="primary">
-          <a href="https://kyo-industry.tomosse.work/" target="_blank">Site</a>
+          <a href="https://kyo-industry.tomosse.work/" target="_blank">Link</a>
         </Button>
       </CardActions>
     </Card>
