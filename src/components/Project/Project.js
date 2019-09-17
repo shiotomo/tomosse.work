@@ -1,7 +1,6 @@
 import React, { Component }  from 'react';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
@@ -27,10 +26,10 @@ class Project extends Component {
           </CardContent>
           <CardActions>
             <Button color="primary">
-              <a href="https://github.com/shiotomo/codecandy" target="_blank">GitHub</a>
+              <a href="https://github.com/shiotomo/codecandy">GitHub</a>
             </Button>
         <Button color="primary">
-          <a href="https://codecandy.tomosse.work/" target="_blank">Link</a>
+          <a href="https://codecandy.tomosse.work/">Link</a>
         </Button>
           </CardActions>
         </Card>
@@ -55,7 +54,7 @@ class Project extends Component {
           </CardContent>
           <CardActions>
             <Button color="primary">
-              <a href="https://github.com/shiotomo/codecaramel" target="_blank">GitHub</a>
+              <a href="https://github.com/shiotomo/codecaramel" rel="noopener">GitHub</a>
             </Button>
           </CardActions>
         </Card>
@@ -80,7 +79,7 @@ class Project extends Component {
           </CardContent>
           <CardActions>
             <Button color="primary">
-              <a href="https://github.com/shiotomo/shoppinglist" target="_blank">GitHub</a>
+              <a href="https://github.com/shiotomo/shoppinglist" rel="noopener">GitHub</a>
             </Button>
           </CardActions>
         </Card>
@@ -105,7 +104,7 @@ class Project extends Component {
           </CardContent>
           <CardActions>
             <Button color="primary">
-              <a href="https://github.com/shiotomo/tomosse.work" target="_blank">GitHub</a>
+              <a href="https://github.com/shiotomo/tomosse.work">GitHub</a>
             </Button>
           </CardActions>
         </Card>
@@ -130,10 +129,10 @@ class Project extends Component {
       </CardContent>
       <CardActions>
         <Button color="primary">
-          <a href="https://github.com/shiotomo/kyo-industry" target="_blank">GitHub</a>
+          <a href="https://github.com/shiotomo/kyo-industry">GitHub</a>
         </Button>
         <Button color="primary">
-          <a href="https://kyo-industry.tomosse.work/" target="_blank">Link</a>
+          <a href="https://kyo-industry.tomosse.work/">Link</a>
         </Button>
       </CardActions>
     </Card>

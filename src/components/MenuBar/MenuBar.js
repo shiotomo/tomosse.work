@@ -9,6 +9,7 @@ class MenuBar extends Component {
     return (
       <div className="menubar">
         <Tabs
+          value={1}
           indicattorColor="primary"
           textColor="primary"
           centered
