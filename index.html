@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, minimum-scale=0.8">
     <title>tomosse.work</title>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- NES.css -->
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130228137-2"></script>
@@ -23,120 +25,69 @@
     </script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10">
-          <h1>
-            <img src="public/profile_cat.jpg" height="100px" width="100px">
-            <b class="message-box">tomosse.work</b>
-          </h1>
-          <h3>
-            My Profile
-          </h3>
-          <hr />
-          <ul class="nav nav-tabs">
-            <li class="active"><a href="#about" data-toggle="tab">ABOUT</a></li>
-            <li><a href="#env" data-toggle="tab">ENV</a></li>
-            <li><a href="#sns" data-toggle="tab">SNS</a></li>
-            <li><a href="#hobby" data-toggle="tab">HOBBY</a></li>
-          </ul>
-          <br />
-
-          <!-- Tab Content -->
-          <div class="tab-content">
-
-            <!-- About me -->
-            <div class="tab-pane active" id="about">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-                  About me
-                </div>
-                <div class="panel-body">
-                  <dt>Name</dt>
-                  <dd>Tomoki Shiota</dd>
-                  <hr />
-                  <dt>HomeTown</dt>
-                  <dd>Kyoto</dd>
-                </div>
-              </div>
-            </div>
-            <!-- /About me -->
-
-            <!-- Environment -->
-            <div class="tab-pane" id="env">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-                  Environment
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><b>Editor</b> : Vim<a href="https://github.com/shiotomo/.vim" target="_blank">
-                        <i class="far fa-file-alt"></i>
-                      </a>
-                      , Sublime Text, VSCode
-                    </li>
-                    <li class="list-group-item"><b>IDE</b> : Eclipse(Vrapper)</li>
-                    <li class="list-group-item"><b>OS</b> : macOS, Windows10, Ubuntu, Xubuntu, CentOS</li>
-                    <li class="list-group-item"><b>Shell</b> : Zsh
-                      <a href="https://github.com/shiotomo/.dotfiles/tree/master/zsh" target="_blank">
-                        <i class="far fa-file-alt"></i>
-                      </a>
-                      , fish, Bash
-                    </li>
-                    <li class="list-group-item"><b>Language</b> : Ruby, Java, Python, Golang, Node.js</li>
-                    <li class="list-group-item"><b>Framework</b> : Rails, Sinatra, Spring Boot, Echo</li>
-                    <li class="list-group-item"><b>Tools</b> : Vagrant, tmux, PostgreSQL, MySQL, Nginx, Docker, Docker Compose, etc...</li>
-                    <a href="https://github.com/shiotomo/sbScript" target="_blank">
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- /Environment -->
-
-            <!-- SNS -->
-            <div class="tab-pane" id="sns">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-                  SNS
-                </div>
-                <div class="panel-body">
-                  <ul>
-                    <li><b>Twitter</b> : <a href="https://twitter.com/shiotomohack" target="_blank">@shiotomohack</a></li>
-                    <li><b>GitHub</b> : <a href="https://github.com/shiotomo" target="_blank">shiotomo</a></li>
-                    <li><b>BLOG</b> : <a href="https://blog.tomosse.work/" target="_blank">のんびり開発日記</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- /SNS -->
-
-            <!-- HOBBY -->
-            <div class="tab-pane" id="hobby">
-              <div class="panel panel-info">
-                <div class="panel-heading">
-                  Hobby
-                </div>
-                <div class="panel-body">
-                  <dl>
-                    <dt>Car</dt>
-                    <dd>SUBARU : IMPREZA 1.5i Limited(2004)</dd>
-                    <hr />
-                    <dt>Motor cycle</dt>
-                    <dd>Kawasaki : ZR250 BALIUSⅠ(1991)</dd>
-                    <dd>Honda: GROM (2020)</dd>
-                    <!-- <dd>Honda : APE50(80cc)(2002)</dd> -->
-                  </dl>
-                </div>
-              </div>
-            </div>
-            <!-- /HOBBY -->
-          </div>
-          <!-- /Tab Content -->
-        </div>
-        <div class="col-sm-1"></div>
+    <div class="body">
+      <h1 class="is-centered">tomosse.work</h1>
+      <section class="icon-list">
+        <a href="https://twitter.com/shiotomohack" target="_blank">
+          <i class="nes-icon twitter"></i>
+        </a>
+        <a href="https://github.com/shiotomo" target="_blank">
+          <i class="nes-icon github"></i>
+        </a>
+        <a href="https://blog.tomosse.work" target="_blank">
+          <i class="nes-icon trophy"></i>
+        </a>
+      </section>
+      <div class="nes-container with-title is-centered">
+        <p class="title">Profile</p>
+        <p>
+          Name: Tomoki Shiota
+        </p>
+        <p>
+          HomeTown: Kyoto
+        </p>
+        <p>
+          Job: Server side engineer
+        </p>
       </div>
+      <br />
+      <div class="nes-container with-title is-centered">
+        <p class="title">Skill Set</p>
+        <p>
+          Editor: Vim, VSCode, Sublime Text
+        </p>
+        <p>
+          IDE: IntelliJ IDEA(idea vim), eclipse(Vrapper)
+        </p>
+        <p>
+          OS: macOS, Windows10, Ubuntu, CentOS
+        </p>
+        <p>
+          language: Ruby, Java, Node.js, JavaScript, Go, Python3
+        </p>
+        <p>
+          Framework: Ruby on Rails, Sinatra Spring Boot, Echo, Flask
+        </p>
+        <p>
+          Shell: Zsh, Bash, fish
+        </p>
+        <p>
+          Other: tmux, MySQL, PostgreSQL, H2 Database, Sqlite3, Nginx, Docker, DockerCompose, Vagrant, etc...
+        </p>
+      </div>
+      <br />
+      <div class="nes-container with-title is-centered">
+        <p class="title">Hobby</p>
+        <p>
+          Car: SUBARU IMPREZA 1.5i Limited(2004)
+        </p>
+        <p>
+          Motor cycle: Kawasaki ZR250 BALIUS1(1991) Honda GROM(2020)
+        </p>
+      </div>
+      <p style="text-align: center">
+        &copy; CodeCandy shiotomo 2018
+      </p>
     </div>
   </body>
 </html>
