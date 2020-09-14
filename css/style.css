@@ -1,4 +1,21 @@
+body {
+  background-image: url('../public/kyoto-arashiyama.JPG');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
 .body {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.frame {
+  background:rgba(255, 255, 255,0.7);
+}
+
+h1 {
+  background-color: white;
 }
