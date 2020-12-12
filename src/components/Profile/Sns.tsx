@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import Twitter from '@material-ui/icons/Twitter';
+import GitHub from '@material-ui/icons/GitHub';
+import Book from '@material-ui/icons/Book';
 
 const useStyles = makeStyles({
   root: {
@@ -15,9 +18,21 @@ const useStyles = makeStyles({
   title: {
     fontSize: 14,
   },
-  pos: {
-    marginBottom: 12,
+  icon: {
+    fontSize: 'xxx-large',
+    margin: '5%',
+    marginTop: 0,
+    marginBottom: 0
   },
+  twitter: {
+    color: '#00cccc'
+  },
+  blog: {
+    color: '#864a2b'
+  },
+  github: {
+    color: 'black'
+  }
 });
 
 const Sns = () => {
@@ -30,15 +45,15 @@ const Sns = () => {
           <Typography className={classes.title} color="textSecondary" gutterBottom>
             SNS
           </Typography>
-          <Typography variant="h5" component="h3">
-            Twitter
-          </Typography>
-          <Typography variant="h5" component="h3">
-            Blog
-          </Typography>
-          <Typography variant="h5" component="h3">
-            GitHub
-          </Typography>
+          <a href="https://twitter.com/shiotomohack" className={classes.twitter}>
+            <Twitter className={classes.icon} />
+          </a>
+          <a href="https://blog.tomosse.work" className={classes.blog}>
+            <Book className={classes.icon} />
+          </a>
+          <a href="https://github.com/shiotomo" className={classes.github}>
+            <GitHub className={classes.icon} />
+          </a>
         </CardContent>
       </Card>
     </div>

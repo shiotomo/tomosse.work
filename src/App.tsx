@@ -2,8 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Profile from './containers/Profile';
-import Project from './containers/Project';
+import Skill from './containers/Skill';
 import Hobby from './containers/Hobby';
+import Header from './containers/Header';
 
 import './App.css';
 
@@ -21,8 +22,9 @@ const App = () => {
   return (
     <div className={classes.app}>
       <Profile />
-      <Project />
+      <Skill />
       <Hobby />
+      <Header />
     </div>
   );
 }

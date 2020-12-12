@@ -14,6 +14,7 @@ const useStyles = makeStyles({
   card: {
     marginTop: '1%',
     marginBottom: '1%',
+    height: '150px'
   },
   title: {
     fontSize: 14,
@@ -55,6 +56,7 @@ const Skill = () => {
               <Chip color="primary" className={classes.chip}label="Vim" />
               <Chip color="primary" className={classes.chip}label="VSCode" />
               <Chip color="primary" className={classes.chip}label="IntelliJ IDEA" />
+              <Chip color="default" className={classes.chip}label="Sublime Text" />
             </CardContent>
           </Card>
         </Grid>
@@ -66,8 +68,8 @@ const Skill = () => {
                 Shell
               </Typography>
               <Chip color="primary" className={classes.chip}label="Zsh" />
+              <Chip color="default" className={classes.chip}label="Bash" />
               <Chip color="default" className={classes.chip}label="fish" />
-              <Chip color="default" className={classes.chip}label="bash" />
             </CardContent>
           </Card>
         </Grid>

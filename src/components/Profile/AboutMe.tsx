@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import ProfileCat from '../../images/profile-cat.jpg';
 
 const useStyles = makeStyles({
   root: {
@@ -21,8 +22,12 @@ const useStyles = makeStyles({
     fontSize: 14,
   },
   pos: {
-    marginBottom: 12,
+    marginBottom: 12
   },
+  profileCat: {
+    height: '25%',
+    width: '25%'
+  }
 });
 
 const AboutMe = () => {
@@ -34,6 +39,9 @@ const AboutMe = () => {
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
             About me
+          </Typography>
+          <Typography>
+            <img className={classes.profileCat} src={ProfileCat} alt="profile-cat" />
           </Typography>
           <Typography variant="h5" component="h2">
             Shiota Tomoki
