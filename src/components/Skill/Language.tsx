@@ -33,7 +33,7 @@ const Skill = () => {
           </Typography>
           <Chip color="primary" className={classes.chip}label="Java" />
           <Chip color="primary" className={classes.chip}label="Ruby" />
-          <Chip color="default" className={classes.chip}label="Kotlin" />
+          <Chip color="primary" className={classes.chip}label="Kotlin" />
           <Chip color="default" className={classes.chip}label="Go" />
           <Chip color="default" className={classes.chip}label="Python3" />
           <Chip color="default" className={classes.chip}label="Node.js" />
