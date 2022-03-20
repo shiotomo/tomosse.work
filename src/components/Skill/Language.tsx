@@ -36,7 +36,7 @@ const Skill = () => {
           <Chip color="primary" className={classes.chip}label="Kotlin" />
           <Chip color="default" className={classes.chip}label="Go" />
           <Chip color="default" className={classes.chip}label="Python3" />
-          <Chip color="default" className={classes.chip}label="Node.js" />
+          <Chip color="default" className={classes.chip}label="TypeScript" />
           <Chip color="default" className={classes.chip}label="JavaScript" />
         </CardContent>
       </Card>
